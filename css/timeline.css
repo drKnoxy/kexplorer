@@ -1,0 +1,63 @@
+.timeline {
+	border-left: 3px solid #DDD;
+	margin: 0;
+	padding: 0;
+}
+.timeline__li {
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.timeline__item {
+    position: relative;
+    margin: 0 -10px;
+    padding: 10px 0 10px 20px;
+    min-height: 204px;
+}
+.timeline__item:before,
+.timeline__item:after {
+    content: " ";
+    display: table;
+}
+
+.timeline__item:after {
+    clear: both;
+}
+.timeline__img-link {
+    display: block;
+    width: 30%;
+    float: left;
+    padding: 0 10px;
+}
+
+.timeline__img {
+    max-width: 100%;
+}
+.timeline__details {
+    float: left;
+    padding: 0 10px;
+    width: 70%;
+}
+.timeline__song-name {
+
+}
+.timeline__artist {
+    display: inline;
+}
+.timeline__dot {
+    position: absolute;
+    left: -1px;
+    background: #fff;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    border: 3px solid #ddd;
+    top: 14px;
+}
+.timeline__timestamp {
+    position: absolute;
+    left: -60px;
+    top: 12px;
+    line-height: 20px;
+    color: #C5C5C5;
+}

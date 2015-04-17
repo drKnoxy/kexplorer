@@ -1,0 +1,18 @@
+.player {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 260px;
+    background-color: #555;
+    padding: 20px;
+}
+
+.now-playing__image-link {
+	margin: -18px -18px 4px -18px;
+	display: block;
+}
+
+.now-playing__image {
+	max-width: 100%;
+}

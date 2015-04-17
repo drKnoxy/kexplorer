@@ -1,4 +1,11 @@
 html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -50,4 +57,8 @@ textarea {
 
 .clearfix:after {
     clear: both;
+}
+
+body {
+    background-color: #EFF3F4;
 }
